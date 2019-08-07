@@ -1,0 +1,112 @@
+@import 'common';
+@import 'variables';
+@import 'reset';
+@import '../../../node_modules/antd/dist/antd.css';
+@import '../../../node_modules/rc-drawer/assets/index.css';
+@import '../../../node_modules/react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
+@import url('~react-table/react-table.css');
+@import url('~react-day-picker/lib/style.css');
+
+.ant-select-dropdown {
+  z-index: 9999;
+}
+
+.ant-notification {
+  z-index: 9999;
+}
+
+.DayPickerInput-OverlayWrapper {
+  position: relative;
+  left: -45px;
+}
+
+.ant-cascader-menus {
+  left: 0 !important;
+
+  &, & ul {
+    width: 100% !important;
+  }
+
+  & li {
+    line-height: 30px !important;
+  }
+}
+
+.ant-form-item {
+  margin: 0;
+}
+
+.ant-input, .ant-time-picker-input {
+  height: 30px !important;
+}
+
+.ant-form-item-label {
+  top: 12px;
+  position: relative;
+}
+
+.ant-row .ant-form-item {
+  height: 64px;
+}
+
+.rdw-editor-wrapper {
+  height: 166px !important;
+}
+
+.rdw-editor-main {
+  height: 110px !important;
+  border: 1px solid rgba(128, 128, 128, 0.26);
+  padding: 5px;
+  background: #fafcfe;
+}
+
+.ant-modal-body {
+  padding: 0 !important;
+}
+
+.ant-card-head {
+  height: 45px;
+  min-height: 40px;
+}
+
+.ant-card-extra, .ant-card-head-title {
+  position: relative;
+}
+
+.ant-card-extra {
+  top: -16px !important;
+}
+
+.ant-card-head-title {
+  top: -10px;
+}
+
+.ant-modal-close {
+  top: -8px;
+}
+
+input[placeholder="Адрес"]{
+  border-radius: 4px 0px 0px 4px;
+}
+
+div[role=columnheader]{
+  text-align: left;
+  padding-left: 8px !important;
+}
+
+.ReactTable .rt-thead {
+  overflow-y: scroll;
+}
+
+.ReactTable .rt-thead::-webkit-scrollbar{
+  visibility: hidden;
+}
+
+
+.ant-col-18{
+  overflow-y: hidden !important;
+}
+
+.ant-layout-content{
+  overflow-x: unset !important;
+}
