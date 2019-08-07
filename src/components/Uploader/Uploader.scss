@@ -1,0 +1,22 @@
+.uploader {
+  &__img {
+    width: 100%;
+    position: relative;
+    top: -16px;
+    border-radius: 5px;
+
+    &:hover {
+      opacity: 0.6;
+      background: #000000;
+    }
+
+    &-close {
+      position: absolute;
+      top: 80px;
+      left: 80px;
+      color: #000000;
+      z-index: 9999;
+      transform: scale(2, 2);
+    }
+  }
+}

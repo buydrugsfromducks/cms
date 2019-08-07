@@ -1,0 +1,36 @@
+.files__wraper{
+    display: block;
+    margin-top: 30px;
+    transition: all .5s ease-in-out;
+    column-count: 6;
+    column-gap: 1em;
+    column-fill: initial;
+}
+
+.files{
+    background-color: aliceblue;
+    display: inline-block;
+    
+    margin: 0 0 1em;
+    line-height: 100px;
+    width: 100%;
+
+    min-width: 100px;
+    min-height: 100px;
+
+    margin-bottom: 30px;
+    vertical-align: top;
+}
+
+.files__img__container{
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+
+@media(max-width: 950px){
+    .files__wraper{
+        column-count: 4;
+    }
+}
+

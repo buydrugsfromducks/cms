@@ -1,0 +1,31 @@
+.content {
+  &__program {
+    &-table-switch-position {
+      position: relative;
+      top: 19px;
+      left: 24px;
+
+      &-without-location {
+        top: 9px;
+      }
+    }
+  }
+  &__module{
+    &-table-switch-position{
+      position: relative;
+      top: 24px;
+      left: 24px;
+    }
+  }
+}
+
+.image-placeholder{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-width: 85px;
+  max-width: 102px;
+  margin: 0px;
+  min-height: 70px;
+}
+

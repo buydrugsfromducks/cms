@@ -1,0 +1,16 @@
+.vscode
+.module-cache
+*.log*
+build
+dist
+.DS_Store
+node_modules/
+src/built/
+src/**/*.jsx
+src/**/*.js
+jspm_packages/
+.idea
+*.swp
+tags
+*.log
+*.jsx
